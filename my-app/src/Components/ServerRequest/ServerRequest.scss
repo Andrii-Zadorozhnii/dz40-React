@@ -1,0 +1,45 @@
+body{
+    padding: 10px;
+    background-color: darkgrey;
+
+}
+h1{
+    text-align: center;
+}
+
+span{
+    font-weight: 800;
+}
+
+.box-container{
+    border: 1px solid black;
+    border-bottom: 5px solid gray;
+    padding: 10px;
+    padding-top: 0;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: white;
+    & img{
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+    &:hover{
+        background-color: lightslategray;
+        color: white;
+        transition: 0.5s all linear;
+        border-color: white;
+
+        
+    }
+
+    &:hover img{
+        border: 2px solid white;
+    }
+}
+.box-total{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
